@@ -14,7 +14,7 @@ If you only want to build the project (not deploy it) just run:
 - `npm install --production`
 - `meteor build /path/to/build --architecture os.linux.x86_64` (for example if deploying to a Ubuntu linux server)
 
-Either way this previous commands are not necessary as long as we have the deployment already configurated on this project. Have a look to
+Either way this previous commands are not necessary as long as we have the deployment already configured on this project. Have a look to
 the text file on `/.deploy/read.txt`
 
 To build a mobile project add the platform:
@@ -30,5 +30,6 @@ and align it:
 `meteor test --driver-package sanjo:jasmine`
 
 ----------
-Every file and folder on the project is documented, just have a look to the `read.txt` file or at the top of the file to see the comments.
-For further info go to the Meteor guide (https://guide.meteor.com/index.html) and angular-meteor repo (https://github.com/urigo/angular-meteor/)
+* Every file and folder on the project is documented, just have a look to the `read.txt` file or at the top of the file to see the comments.
+* For further info go to the Meteor guide (https://guide.meteor.com/index.html) and angular-meteor repo (https://github.com/urigo/angular-meteor/)
+* For a fully working and simplify example have a look to this other repository: https://github.com/erperejildo/find-restaurants
